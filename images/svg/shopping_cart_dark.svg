@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="19px" viewBox="0 0 23 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="home-copy" transform="translate(-52.000000, -166.000000)" stroke="#222222">
+            <g id="left" transform="translate(53.000000, 41.000000)">
+                <g id="Group_890" transform="translate(0.000000, 125.000000)">
+                    <rect id="Rectangle_536" x="0.418" y="4.574" width="20.703" height="3.836" rx="1.267"></rect>
+                    <g id="Group_888" transform="translate(7.000000, 0.000000)">
+                        <path d="M2.654,0.288 L0.332,6.871" id="Line_4356"></path>
+                        <path d="M4.885,0.288 L7.207,6.871" id="Line_4357"></path>
+                    </g>
+                    <g id="Group_889" transform="translate(1.000000, 8.000000)">
+                        <polygon id="Path_550" points="16.913 10 2.626 10 0.608 0.384 18.931 0.384"></polygon>
+                        <path d="M5.605,1.975 L5.605,8.032" id="Line_4358"></path>
+                        <path d="M9.949,1.969 L9.949,8.026" id="Line_4359"></path>
+                        <path d="M14.293,1.969 L14.293,8.026" id="Line_4360"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="31px" viewBox="0 0 32 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 31</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ingredient_page" transform="translate(-1314.000000, -957.000000)" stroke="#FFFFFF" stroke-width="1.24">
+            <g id="BANNER" transform="translate(144.000000, 170.000000)">
+                <g id="Bitmap" transform="translate(0.000000, 46.000000)">
+                    <g id="Group-46-Copy" transform="translate(1076.000000, 740.000000)">
+                        <g id="Group-44" transform="translate(95.000000, 1.000000)">
+                            <g id="Group-31">
+                                <path d="M0,16.74 C1.14655741,11.3666667 6.13754838,8.68 14.9729729,8.68 C23.8083975,8.68 28.7374065,11.3666667 29.76,16.74" id="Path-3"></path>
+                                <circle id="Oval" cx="14.88" cy="16.74" r="4.34"></circle>
+                                <path d="M0,24.18 C1.14655741,18.8066667 6.13754838,16.12 14.9729729,16.12 C23.8083975,16.12 28.7374065,18.8066667 29.76,24.18" id="Path-3-Copy" transform="translate(14.880000, 20.150000) scale(1, -1) translate(-14.880000, -20.150000) "></path>
+                                <line x1="6.36076402" y1="6.82" x2="3.06634191" y2="3.52557789" id="Path-5" stroke-linecap="round"></line>
+                                <line x1="26.8544221" y1="6.82" x2="23.56" y2="3.52557789" id="Path-5-Copy" stroke-linecap="round" transform="translate(25.207211, 5.172789) scale(-1, 1) translate(-25.207211, -5.172789) "></line>
+                                <line x1="14.88" y1="5.57944324" x2="14.88" y2="0.72591584" id="Path-6" stroke-linecap="round"></line>
+                                <line x1="6.36076402" y1="6.82" x2="3.06634191" y2="3.52557789" id="Path-5" stroke-linecap="round"></line>
+                                <g id="Group-40" transform="translate(7.285545, 26.908000)" stroke-linecap="round">
+                                    <line x1="1.46967321" y1="1.38688105" x2="0.154454596" y2="0.0716624391" id="Path-5-Copy-2" transform="translate(0.812064, 0.729272) scale(1, -1) translate(-0.812064, -0.729272) "></line>
+                                    <line x1="15.1096732" y1="1.38688105" x2="13.7944546" y2="0.0716624391" id="Path-5-Copy-3" transform="translate(14.452064, 0.729272) scale(-1, -1) translate(-14.452064, -0.729272) "></line>
+                                    <line x1="7.5944546" y1="3.1" x2="7.5944546" y2="0" id="Path-6-Copy" transform="translate(7.594455, 1.550000) scale(1, -1) translate(-7.594455, -1.550000) "></line>
+                                </g>
+                                <line x1="26.8544221" y1="6.82" x2="23.56" y2="3.52557789" id="Path-5-Copy" stroke-linecap="round" transform="translate(25.207211, 5.172789) scale(-1, 1) translate(-25.207211, -5.172789) "></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
