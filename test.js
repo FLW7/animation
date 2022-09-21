@@ -27,7 +27,7 @@ const updateImage = (index) => {
 };
 
 // скорость скролла
-let scrollSpeed = 700;
+let scrollSpeed = 500;
 // скролл до мейна после анимации
 function scrollAfterAnim(block, speed, e) {
     if (!block.hasClass("scrolled")) {
