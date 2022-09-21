@@ -11,12 +11,14 @@ body {
 .anim {
     position: relative;
     opacity: 1;
-    height: 5000px;
-    transition: 5s ease all;
+    height: 10000px;
+    transform: translate(0);
+    transition: 3s ease all;
 }
 .anim.hide {
     opacity: 0;
-    transition: 1s ease all;
+    transform: translateY(200px);
+    transition: 2s ease all;
 }
 
 .anim canvas {
@@ -24,12 +26,6 @@ body {
     top: 50%;
     left: 0%;
     transform: translateY(-50%);
-}
-
-.block2 {
-    width: 100%;
-    min-height: 400px;
-    background-color: blueviolet;
 }
 /* ------------------ */
 

@@ -27,11 +27,13 @@ const updateImage = (index) => {
 };
 
 // скорость скролла
-let scrollSpeed = 350;
+let scrollSpeed = 700;
 // скролл до мейна после анимации
 function scrollAfterAnim(block, speed, e) {
     if (!block.hasClass("scrolled")) {
-        $("html,body").stop().animate({ scrollTop: block.offset().top }, speed);
+        $("html,body")
+            .stop()
+            .animate({ scrollTop: block.offset().top - 60 }, speed);
         e.preventDefault();
         setTimeout(() => {
             block.addClass("scrolled");
@@ -60,19 +62,14 @@ function scrollDirection(e, frameIndex) {
         }
     }
 }
-const blue = document.querySelector(".blue");
+
 window.addEventListener("scroll", (e) => {
-    let scrollTop = html.scrollTop - document.querySelector(".anim").scrollTop;
-    console.log("11", html.scrollTop - document.querySelector(".anim").scrollTop);
-    scrollTop < 0 ? (scrollTop = 0) : (scrollTop = scrollTop);
-    // console.log(scrollTop);
-    console.log(document.querySelector(".anim").offsetHeight);
-    const maxScrollTop = document.querySelector(".anim").offsetHeight / 2;
+    let scrollTop = html.scrollTop;
+    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.5;
     const scrollFraction = scrollTop / maxScrollTop;
 
     let frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount));
     isNaN(frameIndex) ? (frameIndex = 1) : (frameIndex = frameIndex);
-    // console.log(frameIndex);
     // показать/скрыть всплывающий текст
     if (frameIndex > 40) {
         $("#monitor-gui").removeClass("active");
