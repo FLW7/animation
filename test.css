@@ -11,11 +11,10 @@ body {
 #main {
     margin-top: -470px;
     transition: 0.8s ease all;
-
 }
 
 .scrolled {
-    margin-top: -1300px !important;
+    margin-top: -2100px !important;
     transition: 0.8s ease all;
 }
 

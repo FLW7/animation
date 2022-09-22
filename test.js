@@ -48,7 +48,7 @@ function scrollDirection(e, frameIndex) {
     // вверх
     if (scrollBefore > scrolled) {
         scrollBefore = scrolled;
-        if ($("#main").hasClass("scrolled") && html.scrollTop < $("#main").offset().top) {
+        if ($("#main").hasClass("scrolled") && html.scrollTop < $("#main").offset().top - 600) {
             $(".anim").removeClass("hide");
             $("#main").removeClass("scrolled");
         }
@@ -56,6 +56,7 @@ function scrollDirection(e, frameIndex) {
     } else {
         scrollBefore = scrolled;
         if (frameIndex == 394) {
+            e.preventDefault
             $("#main").addClass("scrolled");
             $(".anim").addClass("hide");
         }
@@ -64,7 +65,7 @@ function scrollDirection(e, frameIndex) {
 
 window.addEventListener("scroll", (e) => {
     let scrollTop = html.scrollTop;
-    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.18;
+    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.3;
     const scrollFraction = scrollTop / maxScrollTop;
 
     let frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount));
