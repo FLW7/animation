@@ -69,8 +69,6 @@ window.addEventListener("scroll", (e) => {
 
     let frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount));
     isNaN(frameIndex) ? (frameIndex = 1) : (frameIndex = frameIndex);
-    console.log(frameIndex);
-    console.log(scrollTop);
     // показать/скрыть всплывающий текст
     if (frameIndex > 40) {
         $("#monitor-gui").removeClass("active");
