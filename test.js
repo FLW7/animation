@@ -64,7 +64,7 @@ function scrollDirection(e, frameIndex) {
 
 window.addEventListener("scroll", (e) => {
     let scrollTop = html.scrollTop;
-    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.1;
+    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.18;
     const scrollFraction = scrollTop / maxScrollTop;
 
     let frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount));
