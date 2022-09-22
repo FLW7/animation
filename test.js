@@ -49,6 +49,11 @@ function scrollDirection(e, frameIndex) {
     if (scrollBefore > scrolled) {
         scrollBefore = scrolled;
         if ($("#main").hasClass("scrolled") && html.scrollTop < $("#main").offset().top) {
+            // window.scrollTo({
+            //     top: 6000,
+            //     // left: 100,
+            //     behavior: "smooth",
+            // });
             $(".anim").removeClass("hide");
             $("#main").removeClass("scrolled");
         }
@@ -57,7 +62,10 @@ function scrollDirection(e, frameIndex) {
         scrollBefore = scrolled;
         if (frameIndex == 394) {
             // скролл к мейну после завершения анимации
-            scrollAfterAnim(main, scrollSpeed, e);
+            // scrollAfterAnim(main, scrollSpeed, e);
+
+            $("#main").addClass("scrolled");
+
             $(".anim").addClass("hide");
         }
     }
@@ -65,11 +73,13 @@ function scrollDirection(e, frameIndex) {
 
 window.addEventListener("scroll", (e) => {
     let scrollTop = html.scrollTop;
-    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.5;
+    const maxScrollTop = (document.querySelector(".anim").offsetHeight + 3000) / 1.5;
     const scrollFraction = scrollTop / maxScrollTop;
 
     let frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount));
     isNaN(frameIndex) ? (frameIndex = 1) : (frameIndex = frameIndex);
+    console.log(frameIndex);
+    console.log(scrollTop);
     // показать/скрыть всплывающий текст
     if (frameIndex > 40) {
         $("#monitor-gui").removeClass("active");

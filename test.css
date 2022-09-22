@@ -12,6 +12,7 @@ body {
     position: relative;
     opacity: 1;
     height: 10000px;
+    max-width: 100%;
     transform: translate(0);
     transition: 3s ease all;
 }
@@ -21,11 +22,14 @@ body {
     transition: 2s ease all;
 }
 
-.anim canvas {
+.anim .canv-wrap {
     position: sticky;
     top: 50%;
-    left: 0%;
     transform: translateY(-50%);
+}
+.anim canvas {
+    display: block;
+    margin: 0 auto;
 }
 /* ------------------ */
 
