@@ -56,8 +56,9 @@ function scrollDirection(e, frameIndex) {
     } else {
         scrollBefore = scrolled;
         if (frameIndex == 394) {
-            e.preventDefault
-            $("#main").addClass("scrolled");
+            e.preventDefault;
+            scrollAfterAnim(main, scrollSpeed, e);
+            // $("#main").addClass("scrolled");
             $(".anim").addClass("hide");
         }
     }
@@ -65,7 +66,7 @@ function scrollDirection(e, frameIndex) {
 
 window.addEventListener("scroll", (e) => {
     let scrollTop = html.scrollTop;
-    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.3;
+    const maxScrollTop = document.querySelector(".anim").offsetHeight / 1.2;
     const scrollFraction = scrollTop / maxScrollTop;
 
     let frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount));

@@ -14,7 +14,7 @@ body {
 }
 
 .scrolled {
-    margin-top: -2100px !important;
+    /* margin-top: -2100px !important; */
     transition: 0.8s ease all;
 }
 
